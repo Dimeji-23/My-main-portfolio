@@ -2,6 +2,6 @@
 * {
   transition: background-color 0.25s, color 0.25s;
 }
-@theme {
-  --font-inter: 'Inter', sans-serif;
+body {
+  font-family: 'Poppins', sans-serif;
 }

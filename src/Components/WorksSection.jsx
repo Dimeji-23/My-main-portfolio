@@ -35,8 +35,7 @@ export default function WorksSection() {
   }, []);
 
   return (
-    <section className="max-w-7xl mx-auto px-6 py-24">
-      
+    <section id="works" className="max-w-7xl mx-auto px-6 sm:py-6 py-4 md:py-12">
       {/* HEADER */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-10">
         <h2 className="text-3xl font-semibold dark:text-white">
@@ -53,24 +52,24 @@ export default function WorksSection() {
 
       {/* WORK DISPLAY */}
       <div className="w-full rounded-2xl overflow-hidden bg-gray-100 dark:bg-gray-900">
-            {/* IMAGE WRAPPER */}
-            <div className="relative w-full h-[260px] sm:h-[320px] md:h-[420px]">
-                <img
-                src={works[currentIndex].image}
-                alt={works[currentIndex].title}
-                className="w-full h-full object-cover transition-opacity duration-700"
-                />
+        {/* IMAGE WRAPPER */}
+        <div className="relative w-full h-[260px] sm:h-[320px] md:h-[420px]">
+          <img
+            src={works[currentIndex].image}
+            alt={works[currentIndex].title}
+            className="w-full h-full object-cover transition-opacity duration-700"
+          />
 
-                {/* OVERLAY */}
-                <div className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 
+          {/* OVERLAY */}
+          <div
+            className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 
                                 bg-black/70 text-white px-3 py-2 sm:px-4 sm:py-2 
-                                rounded-lg text-xs sm:text-sm">
-                {works[currentIndex].title}
-                </div>
-            </div>
-
+                                rounded-lg text-xs sm:text-sm"
+          >
+            {works[currentIndex].title}
+          </div>
         </div>
-
+      </div>
     </section>
   );
 }

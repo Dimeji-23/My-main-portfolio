@@ -4,7 +4,7 @@ import Me from "../assets/Me.jpg";
 export default function Hero() {
   return (
     <section
-      id="home"
+      id="/"
       className="min-h-screen flex items-center pt-28 md:pt-32"
     >
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -12,13 +12,13 @@ export default function Hero() {
           
           {/* LEFT SIDE */}
           <div className="max-w-xl">
-            <p className="text-gray-600 dark:text-gray-300 text-lg md:text-xl mb-3">
+            <p className="text-gray-900  text-lg md:text-xl mb-3">
               Crafting meaningful digital experiences through clean and scalable web development 💻.
             </p>
 
-            <h1 className="text-5xl md:text-6xl font-[var(--font-inter)] font-bold dark:text-white leading-tight">
+            <h1 className="text-5xl md:text-6xl  font-bold leading-tight">
               Hi! I’m Sulayman Muhammad,<br />
-              <span className="text-gray-400 dark:text-white">
+              <span className="text-gray-900/60 ">
                 a Frontend Developer
               </span>
             </h1>
@@ -59,7 +59,7 @@ export default function Hero() {
               </div>
             </motion.div>
 
-            <p className="text-gray-600 dark:text-gray-300 text-center max-w-xs mt-6 text-sm md:text-base">
+            <p className="text-black italic text-center max-w-xs mt-6 text-sm md:text-base">
               Passionate about building fast, responsive, and visually appealing products that deliver real value.
             </p>
           </div>

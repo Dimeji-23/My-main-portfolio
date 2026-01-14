@@ -6,8 +6,8 @@ export default function ServicesOffered() {
         {/* Header */}
         <header className="pb-6">
           <div className="flex items-center gap-4">
-            <div className="w-8 h-8 rounded-full border border-gray-400 dark:border-gray-500 shrink-0"></div>
-            <h1 className="text-5xl md:text-6xl font-medium tracking-tight text-gray-900 dark:text-white">
+            <div className="w-8 h-8 rounded-full border border-gray-400  shrink-0"></div>
+            <h1 className="text-5xl md:text-6xl font-medium tracking-tight text-gray-900 ">
               Services Offered:
             </h1>
           </div>
@@ -24,10 +24,10 @@ export default function ServicesOffered() {
                 01
               </span>
               <div className="flex flex-col gap-2 max-w-3xl">
-                <h2 className="text-2xl font-medium text-gray-900 dark:text-white">
+                <h2 className="text-2xl font-medium text-gray-900 ">
                   Web Development
                 </h2>
-                <p className="text-lg md:text-xl text-gray-600 dark:text-gray-500 leading-relaxed font-[var(--font-inter)]">
+                <p className="text-lg md:text-xl text-gray-600  leading-relaxed font-[var(--font-inter)]">
                   I build high-performance, scalable, and SEO-friendly websites using modern frameworks, with React at the core. From business websites to custom web applications, I focus on clean architecture, responsive design, and exceptional user experience.
                 </p>
               </div>
@@ -42,10 +42,10 @@ export default function ServicesOffered() {
                 02
               </span>
               <div className="flex flex-col gap-2 max-w-3xl">
-                <h2 className="text-2xl font-medium text-gray-900 dark:text-white">
+                <h2 className="text-2xl font-medium text-gray-900 ">
                   UI/UX Design
                 </h2>
-                <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed font-[var(--font-inter)]">
+                <p className="text-lg md:text-xl text-gray-600 leading-relaxed font-[var(--font-inter)]">
                   I design and build visually polished, user-friendly interfaces with a strong focus on usability, clarity, and responsiveness. My goal is to create intuitive experiences that feel smooth and consistent across all screen sizes.
                 </p>
               </div>
@@ -60,10 +60,10 @@ export default function ServicesOffered() {
                 03
               </span>
               <div className="flex flex-col gap-2 max-w-3xl">
-                <h2 className="text-2xl font-medium text-gray-900 dark:text-white">
+                <h2 className="text-2xl font-medium text-gray-900 ">
                   Web Consultation
                 </h2>
-                <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed font-[var(--font-inter)]">
+                <p className="text-lg md:text-xl text-gray-600 leading-relaxed font-[var(--font-inter)]">
                   I help businesses and creators make informed frontend decisions, from improving existing interfaces to selecting the right tools for building modern web experiences.
                 </p>
               </div>

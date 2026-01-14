@@ -5,6 +5,7 @@ import ServicesOffered from "./Components/Services"
 import Skills from "./Components/Skills";
 import WorksSection from  "./Components/WorksSection";
 import "./App.css";
+import ContactForm from "./Components/Contact";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <AboutMe />
       <ServicesOffered />
       <Skills />
+      <ContactForm/>
     </>
   );
 }

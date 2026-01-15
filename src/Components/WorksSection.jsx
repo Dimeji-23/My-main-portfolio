@@ -10,17 +10,7 @@ const works = [
     id: 2,
     title: "Event Booking landing page",
     image: "/event-booking.png",
-  },
-  {
-    id: 3,
-    title: "Portfolio Website",
-    image: "/works/work3.png",
-  },
-  {
-    id: 4,
-    title: "Analytics Platform",
-    image: "/works/work4.png",
-  },
+  }
 ];
 
 export default function WorksSection() {

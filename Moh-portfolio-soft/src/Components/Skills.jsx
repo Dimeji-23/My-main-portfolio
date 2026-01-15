@@ -66,15 +66,17 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="w-full py-24">
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Decorative circle */}
-        <div className="absolute -top-6 -left-6 w-24 h-24 border border-gray-300 dark:border-gray-700 rounded-full opacity-50 pointer-events-none" />
+    <section
+        id="skills"
+        className="w-full py-24 bg-white dark:bg-black relative z-10"
+      >
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <h1 className="text-5xl md:text-6xl font-medium tracking-tight 
+                        text-gray-900 dark:text-white mb-16">
+            Technical Skills
+          </h1>
 
-        {/* Heading */}
-        <h1 className="text-5xl md:text-5xl font-medium mb-16 tracking-tight text-center text-gray-900 dark:text-white">
-          Technical Skills
-        </h1>
 
         {/* Skills Grid */}
         <section>
